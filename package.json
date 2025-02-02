@@ -1,0 +1,34 @@
+{
+  "name": "hmah-event-dispatcher",
+  "version": "1.0.0",
+  "description": "Strict typed event dispatcher.",
+  "main": "src/EventDispatcher.js",
+  "module": "src/EventDispatcher.js",
+  "types": "src/EventDispatcher.d.ts",
+  "type": "module",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "bun test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DoggyXomaX/hmah-event-dispatcher.git"
+  },
+  "keywords": [
+    "event",
+    "dispatcher",
+    "typescript",
+    "javascript"
+  ],
+  "author": "doggyxomax",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DoggyXomaX/hmah-event-dispatcher/issues"
+  },
+  "homepage": "https://github.com/DoggyXomaX/hmah-event-dispatcher#readme",
+  "devDependencies": {
+    "@types/bun": "^1.2.2"
+  }
+}
