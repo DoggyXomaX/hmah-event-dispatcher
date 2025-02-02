@@ -1,0 +1,19 @@
+# Black hole
+node_modules
+
+# Node.JS
+package-lock.json
+
+# IDE
+.vscode
+.idea
+
+# MacOS
+DS_Store
+
+# Build
+build
+dist
+
+# 😎
+😎
