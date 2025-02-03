@@ -1,7 +1,26 @@
 {
   "name": "hmah-event-dispatcher",
+  "description": "Lightweight event dispatcher with strict types.",
   "version": "1.0.0",
-  "description": "Strict typed event dispatcher.",
+  "keywords": [
+    "event",
+    "dispatcher",
+    "typescript",
+    "javascript",
+    "addEventListener",
+    "observer"
+  ],
+  "homepage": "https://github.com/DoggyXomaX/hmah-event-dispatcher",
+  "author": "doggyxomax (https://github.com/doggyxomax)",
+  "repository": "doggyxomax/hmah-event-dispatcher",
+  "bugs": {
+    "url": "https://github.com/doggyxomax/hmah-event-dispatcher/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "src/EventDispatcher.js",
+    "src/EventDispatcher.d.ts"
+  ],
   "main": "src/EventDispatcher.js",
   "module": "src/EventDispatcher.js",
   "types": "src/EventDispatcher.d.ts",
@@ -12,29 +31,9 @@
   "scripts": {
     "test": "bun test"
   },
-  "files": [
-    "src",
-    "tests",
-    "package.json",
-    "tsconfig.json",
-    "README.md"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DoggyXomaX/hmah-event-dispatcher.git"
+  "peerDependencies": {
+    "bun": "^1.0.0"
   },
-  "keywords": [
-    "event",
-    "dispatcher",
-    "typescript",
-    "javascript"
-  ],
-  "author": "doggyxomax",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/DoggyXomaX/hmah-event-dispatcher/issues"
-  },
-  "homepage": "https://github.com/DoggyXomaX/hmah-event-dispatcher#readme",
   "devDependencies": {
     "@types/bun": "^1.2.2"
   }
