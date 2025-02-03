@@ -1,5 +1,11 @@
 # Lightweight event dispatcher with strict types
 
+[
+  ![](https://img.shields.io/badge/hmah--event--dispatcher-npm-red)
+](
+  https://www.npmjs.com/package/hmah-event-dispatcher
+)
+
 ## How to use
 
 * Create an event map for the dispatcher in named-array Record
